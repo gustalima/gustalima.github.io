@@ -1,23 +1,19 @@
 ---
 layout: default
 ---
-<article>
 
+<article>
   <header>
     <h1>{{ page.title | escape }}</h1>
+    <div class="alert alert-danger">POST PAGE</div>
     <p class="text-muted">
       <time datetime="{{ page.date | date_to_xmlschema }}">
-        {%- assign date_format = "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
+        {%- assign date_format = "%b %-d, %Y" -%} {{ page.date | date:
+        date_format }}
       </time>
-      {%- if page.author -%}
-        • {{ page.author }}
-      {%- endif -%}
+      {%- if page.author -%} • {{ page.author }} {%- endif -%}
     </p>
   </header>
 
-  <section>
-    {{ content }}
-  </section>
-
+  <section>{{ content }}</section>
 </article>
