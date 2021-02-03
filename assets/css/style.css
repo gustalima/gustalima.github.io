@@ -28,6 +28,6 @@
 .w-90 {
   width: 90% !important;
 }
-.test {
-  font-size: 40px;
+.profile-picture {
+  border-radius: 50%;
 }
