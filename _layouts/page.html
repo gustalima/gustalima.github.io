@@ -3,17 +3,31 @@ layout: default
 ---
 
 <article>
-  {% comment %} <header>
+  {% comment %}
+  <header>
     <h1>{{ page.title | escape }}</h1>
-  </header> {% endcomment %}
+  </header>
+  {% endcomment %}
 
   <section>
     <div class="alert alert-danger">TEST 2 PAGE</div>
+
+    <div class="d-flex flex-row">
+      <div class="alert alert-success w-25">
+        <img src="../assets/imgs/profile.png" />
+      </div>
+      <div class="alert alert-danger w-75">
+        <h2>Gustavo Lima</h2>
+        <h5>PhD in Applied Physics</h5>
+        <h6>Cambridge, United Kingdom gustavo.alvares.lima@gmail.com</h6>
+      </div>
+    </div>
+
     <div class="d-flex flex-row">
       <div class="alert alert-success w-75"></div>
       <div class="alert alert-danger w-25"></div>
     </div>
-    <img src="../assets/imgs/profile.png"></img>
+
     {% comment %} {{ content }} {% endcomment %}
   </section>
 </article>
