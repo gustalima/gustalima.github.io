@@ -29,6 +29,8 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+encoding: utf-8
+
 # A list of the pages to display in the navigation bar
 header_pages:
 
