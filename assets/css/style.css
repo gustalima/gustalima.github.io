@@ -45,3 +45,6 @@ p {
   font-family: Roboto Slab;
   color: #8080809c;
 }
+.bibtexentry {
+  text-align: justify !important;
+}
