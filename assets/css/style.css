@@ -35,3 +35,13 @@
   font-size: 18px;
   line-height: 26px;
 }
+p {
+  font-family: Roboto;
+}
+.text-primary {
+  font-family: Roboto Slab;
+}
+.text-light-2 {
+  font-family: Roboto Slab;
+  color: #8080809c;
+}
