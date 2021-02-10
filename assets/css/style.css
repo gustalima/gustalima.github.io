@@ -33,19 +33,17 @@
 }
 .text-justify {
   font-size: 18px;
-  line-height: 26px;
+  line-height: 2;
 }
 p {
   font-family: Roboto;
 }
 .text-primary {
   font-family: Roboto Slab;
-  line-height: 2;
 }
 .text-light-2 {
   font-family: Roboto Slab;
   color: #8080809c;
-  line-height: 2;
 }
 .bibtexentry {
   text-align: justify !important;
